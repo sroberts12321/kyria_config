@@ -362,6 +362,8 @@ bool oled_task_user(void) {
 
 #ifdef ENCODER_ENABLE
 bool encoder_update_user(uint8_t index, bool clockwise) {
+  // I might have installed my rotary encoder backwards, 
+  // but this is what makes it work how you would expect it
     if (clockwise) {
         tap_code(KC_VOLD);
     } else {
