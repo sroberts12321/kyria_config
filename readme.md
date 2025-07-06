@@ -1,8 +1,8 @@
 # My Kyria Keymap
 
-This is something like the 3rd iteration of this keymap
-I made some adjustments to this one after using my Kyria daily for about 4 years.
-I mostly use it for programming on Linux
+This is something like the 3rd iteration of this keymap  
+I made some adjustments to this one after using my Kyria daily for about 4 years.  
+I mostly use it for programming on Linux  
 This uses the Kyria rev1 PCB (non-proton micro controller), so keep that in mind
 
 Features:
