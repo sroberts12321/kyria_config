@@ -123,4 +123,4 @@ My Kyria is equipped with underglow and has the settings on the F-Key layer
 
 
 # My board
-![kyria](https://imgur.com/gallery/daily-driver-DHeuWpf#mdNQCDe)
+![kyria](https://i.imgur.com/mdNQCDe.jpeg)
