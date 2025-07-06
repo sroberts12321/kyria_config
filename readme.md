@@ -121,6 +121,9 @@ I also made a custom bitmap of the villian from Over the Garden wall for the sec
 
 My Kyria is equipped with underglow and has the settings on the F-Key layer
 
-
 # My board
+
 ![kyria](https://i.imgur.com/mdNQCDe.jpeg)
+
+**Case:** CIO by littlekeyboards (discontinued)  
+**Artisans:** Mir keycap by [Namong](https://www.instagram.com/namong.art)
