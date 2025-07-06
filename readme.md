@@ -26,12 +26,10 @@ qmk list-keymaps -kb splitkb/kyria/rev1
 # Compile the keymap
 qmk compile -kb splitkb/kyria/rev1 -km kyria_config
 
-# Flash if successful
+# Flash with qmk or use QMK toolbox and select the .hex file
 qmk flash -kb splitkb/kyria/rev1 -km kyria_config
 
 ```
-
-## I use QMK toolbox to flash my .hex file
 
 # The Layout
 
