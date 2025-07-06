@@ -284,9 +284,6 @@ bool oled_task_user(void) {
             case _SYMBOLS:
                 oled_write_P(PSTR("Symbols\n"), false);
                 break;
-            case _MAC:
-                oled_write_P(PSTR("Mac\n"), false);
-                break;
             case _FUNCTION:
                 oled_write_P(PSTR("Function\n"), false);
                 break;
@@ -302,7 +299,7 @@ bool oled_task_user(void) {
         animate_luna();
     } else {
         // clang-format off
-        // The beast from over the garden wall
+        // The Beast from Over the Garden Wall
         static const char PROGMEM kyria_logo[] = {
       72, 77,  0,  0, 77,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, 77, 76,  0, 64, 77,
        0,  0,  0,  0,  0,  0,  0,  0,  0, 77,128,128, 77, 76, 60,  3,  3,124,124, 62, 49, 49,

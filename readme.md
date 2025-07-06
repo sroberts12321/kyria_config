@@ -1,15 +1,22 @@
-# Steve's Kyria Keymap
+# My Kyria Keymap
 
 This is something like the 3rd iteration of this keymap
-Hardware features of the Kyria such as OLEDs, rotary encoders and underglow are toggled on.
+I made some adjustments to this one after using my Kyria daily for about 4 years.
+I mostly use it for programming on Linux
 
-The three different layers are the following:
+Features:
 
-1. Home layer (QWERTY, Colemak-DH or Dvorak)
-2. Symbols/Numbers layer
+- I use a rotary encoder for volume control
+- I have luna the animated keyboard pet for 64 width screens
+- I made a custom bitmap for my second OLED screen
+
+For now I only use 3 layers:
+
+1. Home layer
+2. Symbols / Numbers layer
 3. Function / LED layer
 
-## Home layer(s)
+## Home layer
 
 ```
 Home Layer: -
@@ -71,17 +78,18 @@ enum layers {
 };
 ```
 
-## Hardware Features
+## My Hardware
 
 ### Rotary Encoder
 
-The rotary encoder is on the top right corner, and is programmed to control the volume
+The rotary encoder is on the top right corner, and is programmed to control the volume. I think I installed my encoder backwards, so you might need to adjust the rotation so it works for your Kyria
 
 ### OLEDs
 
-I found luna the keyboard pet adapted for the landscape screens => https://gist.github.com/louckousse/74cd3f5cacf04fa585c127d89a149cfc
-I also made a custom bitmap of the villian from Over the Garden wall for the second oled
+I wanted to customize the OLED screens a bit, I found luna the animated dog that runs when you type and barks when you hold shift, but it was originally made for 32 width screens, so I had to find a way to adapt it for my 64 pixel landsape screen => https://gist.github.com/louckousse/74cd3f5cacf04fa585c127d89a149cfc
+
+I also made a custom bitmap of the villian from Over the Garden wall for the second OLED
 
 ### Underglow
 
-Lots of options for underglow
+My Kyria is equipped with underglow and has the settings on the F-Key layer
