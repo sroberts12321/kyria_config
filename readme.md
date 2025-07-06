@@ -3,12 +3,37 @@
 This is something like the 3rd iteration of this keymap
 I made some adjustments to this one after using my Kyria daily for about 4 years.
 I mostly use it for programming on Linux
+This uses the Kyria rev1 PCB (non-proton micro controller), so keep that in mind
 
 Features:
 
 - I use a rotary encoder for volume control
 - I have luna the animated keyboard pet for 64 width screens
 - I made a custom bitmap for my second OLED screen
+
+### You will need to use the QMK Cli tool to create the hex file that you will flash to your Kyria, download and set it up if you haven't already
+
+```bash
+# Navigate to the kyria keymaps folder in qmk
+cd ~/YOUR_USER/qmk_firmware/keyboards/splitkb/kyria/keymaps/
+
+# Clone this git repo
+git clone https://github.com/sroberts12321/kyria_config.git
+
+# Check to make sure you have the new keymap available, it should say kyria_config
+qmk list-keymaps -kb splitkb/kyria/rev1
+
+# Compile the keymap
+qmk compile -kb splitkb/kyria/rev1 -km kyria_config
+
+# Flash if successful
+qmk flash -kb splitkb/kyria/rev1 -km kyria_config
+
+```
+
+## I use QMK toolbox to flash my .hex file
+
+# The Layout
 
 For now I only use 3 layers:
 
@@ -87,10 +112,10 @@ The rotary encoder is on the top right corner, and is programmed to control the 
 ### OLEDs
 
 I wanted to customize the OLED screens a bit, I found luna the animated dog that runs when you type and barks when you hold shift, but it was originally made for 32 width screens, so I had to find a way to adapt it for my 64 pixel landsape screen => https://gist.github.com/louckousse/74cd3f5cacf04fa585c127d89a149cfc
-  
+
 https://github.com/user-attachments/assets/b2702949-7818-4743-8435-085edef45a3b
 
-I also made a custom bitmap of the villian from Over the Garden wall for the second OLED  
+I also made a custom bitmap of the villian from Over the Garden wall for the second OLED
 
 ![final-image](https://github.com/user-attachments/assets/695a4f52-4dfd-4cbd-97d2-861c316ebc83)
 
