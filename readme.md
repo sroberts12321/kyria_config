@@ -94,6 +94,8 @@ I wanted to customize the OLED screens a bit, I found luna the animated dog that
   </video>
 </div>
 
+![Video](https://github.com/user-attachments/assets/b2702949-7818-4743-8435-085edef45a3b)
+
 I also made a custom bitmap of the villian from Over the Garden wall for the second OLED  
 
 ![final-image](https://github.com/user-attachments/assets/695a4f52-4dfd-4cbd-97d2-861c316ebc83)
