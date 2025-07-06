@@ -126,4 +126,4 @@ My Kyria is equipped with underglow and has the settings on the F-Key layer
 ![kyria](https://i.imgur.com/mdNQCDe.jpeg)
 
 **Case:** CIO by littlekeyboards (discontinued)  
-**Artisans:** Mir keycap by [Namong](https://www.instagram.com/namong.art)
+**Artisans:** Mir keycap by [Namong](https://www.instagram.com/p/B7qqDRbJ04B/)
