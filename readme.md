@@ -120,3 +120,7 @@ I also made a custom bitmap of the villian from Over the Garden wall for the sec
 ### Underglow
 
 My Kyria is equipped with underglow and has the settings on the F-Key layer
+
+
+# My board
+![kyria](https://imgur.com/gallery/daily-driver-DHeuWpf#mdNQCDe)
