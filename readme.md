@@ -88,10 +88,7 @@ The rotary encoder is on the top right corner, and is programmed to control the 
 
 I wanted to customize the OLED screens a bit, I found luna the animated dog that runs when you type and barks when you hold shift, but it was originally made for 32 width screens, so I had to find a way to adapt it for my 64 pixel landsape screen => https://gist.github.com/louckousse/74cd3f5cacf04fa585c127d89a149cfc
 
-<video width="320" height="320" controls>
-  <source src="https://github.com/user-attachments/assets/19df06d6-8904-4a6f-84f2-9e1cacaca201" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/b2702949-7818-4743-8435-085edef45a3b  
 
 I also made a custom bitmap of the villian from Over the Garden wall for the second OLED  
 
